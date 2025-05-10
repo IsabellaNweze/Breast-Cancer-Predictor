@@ -20,8 +20,10 @@ class Prediction(db.Model):
     result = db.Column(db.String(50), nullable=False)
 
 # Define the model path
-model_path = 'C:\\Users\\CParity\\csc442- ass2\\logistic_regression_model.pkl'
-scaler_path = 'C:\\Users\\CParity\csc442- ass2\\scaler.pkl'
+# model_path = 'C:\\Users\\CParity\\csc442- ass2\\logistic_regression_model.pkl'
+model_path ='logistic_regression_model.pkl'
+scaler_path = 'scaler.pkl'
+# scaler_path = 'C:\\Users\\CParity\csc442- ass2\\scaler.pkl'
 
 # # Load the model (you can move this inside main if you prefer delayed loading)
 # with open(model_path, 'rb') as f:
